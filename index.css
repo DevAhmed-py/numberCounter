@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: aliceblue;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    position: relative;
+    top: 15rem
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+button {
+    text-transform: uppercase;
+    background: transparent;
+    color: #222;
+    padding: 0.3rem 0.5rem;
+    letter-spacing: 0.25rem;
+    display: inline-block;
+    font-weight: 700;
+    border: 2px solid #222;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    margin-right: 0.9rem
+}
+
+button:hover {
+    transition: all 0.5s linear;
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+}
+
+.display {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
